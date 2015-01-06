@@ -19,3 +19,11 @@ RNAseq
 ###### batch_tophat2.pl
 * Runs tophat2 against a reference genome on all fastq files you specify in a directory
 
+Bisulfite
+----------
+
+DNAseq
+----------
+###### batch_bwa.pl
+* Runs bwa against an indexed reference genome on all fastq files you specify in a directory
+
