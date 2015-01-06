@@ -1,7 +1,7 @@
 bread and butter
 ================
 
-My bread and butter scripts for short read inspection, cleaning, RNAseq alignment, DNAseq alignment, bisulfite alignment. Free to anyone, but hardcoded with paths for the University of Georgia zcluster as well as some placeholders of my own files (like .gff file names, which you'll need to replace with your own). I mean for this to be an example of how I do things -- it won't necessarily work for you out of the box. 
+My bread and butter scripts for short read inspection, cleaning, RNAseq alignment, DNAseq alignment, bisulfite alignment, some phylogenetic pipelines, and other tidbits of common scripts I run. Free to anyone, but hardcoded with paths for the University of Georgia zcluster as well as some placeholders of my own files (like .gff file names, which you'll need to replace with your own). I mean for this to be an example of how I do things -- it won't necessarily work for you out of the box. 
 
 readCleaning
 ------------
