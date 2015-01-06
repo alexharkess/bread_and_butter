@@ -1,4 +1,8 @@
 bread_and_butter
 ================
 
-My bread and butter scripts for short read inspection, cleaning, tophat2 alignment, bisulfite alignment. Free to anyone.
+My bread and butter scripts for short read inspection, cleaning, tophat2 alignment, bisulfite alignment. Free to anyone, but hardcoded with paths for the University of Georgia zcluster.
+
+readCleaning
+
+
