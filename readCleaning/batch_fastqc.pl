@@ -17,4 +17,4 @@ print OUT "#!/bin/bash\n";
 print OUT "/usr/local/fastqc/latest/fastqc -f fastq -t 3 $files\n";
 close OUT;
 
-system "qsub -q rcc-30d -cwd -pe thread 2 -l mem_total=20G ./all_fastqc.sh";
+system "qsub -q rcc-30d -cwd -pe thread 3 -l mem_total=20G ./all_fastqc.sh";
