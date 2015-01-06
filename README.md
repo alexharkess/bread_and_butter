@@ -17,13 +17,15 @@ readCleaning
 RNAseq
 ----------
 ###### batch_tophat2.pl
-* Runs tophat2 against a reference genome on all fastq files you specify in a directory
+* Runs tophat2 against a reference genome on all cleaned fastq files you specify in a directory
 
 Bisulfite
 ----------
+###### batch_bismark.pl
+* Runs bismark against a reference genome on all cleaned bisulfite fastq reads you specify in a directory
 
 DNAseq
 ----------
 ###### batch_bwa.pl
-* Runs bwa against an indexed reference genome on all fastq files you specify in a directory
+* Runs bwa against an indexed reference genome on all cleaned fastq files you specify in a directory
 
