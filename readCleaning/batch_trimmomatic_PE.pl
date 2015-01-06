@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-# runs trimmomatic on single end reads, trimming TruseqV2 adapters, then clips 5' and 3' ends < Phred 10, then discards reads < 50nt long
+# runs trimmomatic on paired end reads, trimming TruseqV2 adapters, then clips 5' and 3' ends < Phred 10, then discards reads < 50nt long
 # requires a file named "readlist.txt" in your current directory
 # readlist.txt must contain only 3 columns for each library you want to trim:
 #		libraryname_1.fq.gz		libraryname_2.fq.gz		shortUniqueDescriptor
